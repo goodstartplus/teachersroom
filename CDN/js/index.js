@@ -111,7 +111,7 @@ document.getElementById("display_name").value =
           console.log(res.result);
           meetingConfig.signature = res.result;
           meetingConfig.sdkKey = CLIENT_ID;
-          var joinUrl = "https://goodstartplus.github.io/GSA-quarta/CDN/meeting.html?" + testTool.serialize(meetingConfig);
+          var joinUrl = "https://goodstartplus.github.io/teachersroom/CDN/meeting.html?" + testTool.serialize(meetingConfig);
           console.log(joinUrl);
           window.open(joinUrl, "_self");
         },
@@ -145,7 +145,7 @@ document.getElementById("display_name").value =
         meetingConfig.sdkKey = CLIENT_ID;
         var joinUrl =
           testTool.getCurrentDomain() +
-          "https://goodstartplus.github.io/GSA-quarta/CDN/meeting.html?" +
+          "https://goodstartplus.github.io/teachersroom/CDN/meeting.html?" +
           testTool.serialize(meetingConfig);
         document.getElementById('copy_link_value').setAttribute('link', joinUrl);
         copyToClipboard('copy_link_value');
