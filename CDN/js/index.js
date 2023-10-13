@@ -30,9 +30,9 @@ function websdkready() {
 document.getElementById("display_name").value =
     "";
 
-  document.getElementById("meeting_number").value = "87149115915"
+  document.getElementById("meeting_number").value = "83673144987"
   ;
-  document.getElementById("meeting_pwd").value = "0fGYcM"
+  document.getElementById("meeting_pwd").value = "312601"
   ;
 
   if (testTool.getCookie("meeting_lang"))
@@ -83,7 +83,7 @@ document.getElementById("display_name").value =
     document.getElementById("meeting_number").value = "";
     document.getElementById("meeting_pwd").value = "";
     document.getElementById("meeting_lang").value = "en-US";
-    document.getElementById("meeting_role").value = 0;
+    document.getElementById("meeting_role").value = 1;
     window.location.href = "/index.html";
   });
 
