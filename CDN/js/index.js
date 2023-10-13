@@ -113,7 +113,7 @@ document.getElementById("display_name").value =
           meetingConfig.sdkKey = CLIENT_ID;
           var joinUrl = "https://goodstartplus.github.io/teachersroom/CDN/meeting.html?" + testTool.serialize(meetingConfig);
           console.log(joinUrl);
-          window.open(joinUrl, "_parent");
+          window.open(joinUrl, "_blank");
         },
       });
     });
